@@ -1,10 +1,3 @@
-"""
-prompt_memory.py
-----------------
-Saves every prompt version + score + output.
-So we can track improvement across iterations and always return the best.
-"""
-
 import json
 import os
 from datetime import datetime
