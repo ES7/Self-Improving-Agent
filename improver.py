@@ -1,10 +1,3 @@
-"""
-improver.py
------------
-The meta-agent — reads evaluation feedback and rewrites the prompt.
-This is what makes the system "self-improving."
-"""
-
 from openai import OpenAI
 from config import OPENAI_API_KEY, OPENAI_MODEL
 from prompts import IMPROVER_PROMPT
