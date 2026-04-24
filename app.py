@@ -1,10 +1,3 @@
-"""
-app.py
-------
-Streamlit UI for the Self-Improving Agent.
-Run with: streamlit run app.py
-"""
-
 import sys, os
 sys.path.insert(0, os.path.dirname(__file__))
 
