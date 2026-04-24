@@ -1,11 +1,3 @@
-"""
-evaluator.py
-------------
-Scores the agent's output quality.
-Returns a score 1-10 + detailed feedback.
-This feedback is what the improver uses to fix the prompt.
-"""
-
 import json
 from openai import OpenAI
 from config import OPENAI_API_KEY, OPENAI_MODEL
