@@ -1,10 +1,3 @@
-"""
-agent.py
---------
-The main agent — runs a task using the current prompt.
-Prompt changes every iteration as the improver rewrites it.
-"""
-
 from openai import OpenAI
 from config import OPENAI_API_KEY, OPENAI_MODEL
 
